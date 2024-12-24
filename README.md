@@ -1,3 +1,14 @@
+```Steps To Install are Just Clone The Repo Using "git clone https://github.com/Silentmussle913/zeqa-terminal" you have to have git installed or just download the repo from here```
+``u just have to follow the instructions from the Clickme.txt which is located inside the cloned repo``
+
+
+
+
+
+
+
+
+
 1. Get Online Players from a Minecraft Server:
    Command: node mcStatusPlayers <serverIp> <serverPort>
    Description: Fetches the list of online players from the specified Minecraft server IP and port.
