@@ -1,5 +1,5 @@
 ```Steps To Install are Just Clone The Repo Using "git clone https://github.com/Silentmussle913/zeqa-terminal" you have to have git installed or just download the repo from here```
-``u just have to follow the instructions from the Clickme.txt which is located inside the cloned repo``
+``after u clone the repo just click the activate.bat file and then open a command prompt in the same directory``
 
 
 
