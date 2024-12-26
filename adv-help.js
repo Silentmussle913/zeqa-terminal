@@ -30,6 +30,11 @@ function displayHelpMenu() {
     console.log('   Description: Searches across all Zeqa regions and lobbies to check if the specified player is online.');
     console.log('   Example: node find Silentmussle913\n');
 
+    console.log('6. Connects you to OrangeCheats Server:');
+    console.log('   Command: node orangesweat.mjs ');
+    console.log('   Description: Connects you to GameParrots OrangeCheats Server.');
+    console.log('   Example: node orangesweat.mjs\n');
+
  
 
     console.log('=== End of Help Menu ===');
