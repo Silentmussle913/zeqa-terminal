@@ -1,4 +1,0 @@
-Just UnZip the Zeqa-terminal.zip
-Then Go into the Packaged Version Folder
-Then Open a Command prompt in the same directory as the Node_modules Folder
-Now Follow the Steps From the repo and Use the program
