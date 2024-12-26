@@ -9,7 +9,7 @@
 
 
 
-1. Get Online Players from a Minecraft Server:
+#1. Get Online Players from a Minecraft Server:
    Command: node mcStatusPlayers <serverIp> <serverPort>
    Description: Fetches the list of online players from the specified Minecraft server IP and port.
    Example: node mcStatusPlayers as.zeqa.net 10001
