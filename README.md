@@ -1,5 +1,5 @@
 # Steps To Install the Program
-*just Clone the repository by Running `git clone https://github.com/Silentmussle913/zeqa-terminal` in your terminal*
+*just Clone the repository by Running `git clone https://github.com/Silentmussle913/zeqa-terminal` in your terminal* **if u dont have git Installed download the packaged version by [clicking This](https://github.com/Silentmussle913/zeqa-terminal/archive/refs/heads/main.zip)
 now after finishing the cloning process just go inside the **zeqa-terminal** Folder and click the `Start Program.bat` file it will have a built in help menu which u can run and get again by doing `node adv-help`
 
 **Important to have NodeJs Installed you can download it at** [Click-to-Download NodeJs](https://nodejs.org/en/download/package-manager)
