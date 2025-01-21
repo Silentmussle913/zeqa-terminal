@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeqa Terminal</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #4caf50;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #4caf50;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 5px 0 0 0;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #4caf50;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .code {
+      background-color: #2d2d2d;
+      color: #80cbc4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #121212;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #66bb6a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zeqa Terminal</h1>
+    <p>A powerful tool for Minecraft and Zeqa Network enthusiasts</p>
+  </header>
+  <main>
+    <section>
+      <h2>Getting Started</h2>
+      <p>To use Zeqa Terminal, clone the repository by running the following command:</p>
+      <div class="code">git clone https://github.com/Silentmussle913/zeqa-terminal</div>
+      <p>If you don't have Git installed, download the packaged version by clicking the button below:</p>
+      <a href="https://github.com/Silentmussle913/zeqa-terminal/archive/refs/heads/main.zip" class="button">Download Packaged Version</a>
+      <p>After downloading, unzip the file and navigate to the <strong>zeqa-terminal</strong> folder. Run the program by double-clicking the <strong>Start Program.bat</strong> file. It has a built-in help menu, which you can access again by running:</p>
+      <div class="code">node adv-help</div>
+      <p><strong>Note:</strong> You must have <a href="https://nodejs.org/" class="button">Node.js</a> installed.</p>
+    </section>
+    <section>
+      <h2>How to Use the Program</h2>
+      <p>Below are the commands you can use with Zeqa Terminal:</p>
+      <ol>
+        <li>
+          <h3>Get Online Players from a Minecraft Server</h3>
+          <p><strong>Command:</strong> <span class="code">node mcStatusPlayers</span></p>
+          <p><strong>Description:</strong> Fetches the list of online players from the specified Minecraft server IP and port.</p>
+          <p><strong>Example:</strong></p>
+          <div class="code">node mcStatusPlayers as.zeqa.net 10001</div>
+        </li>
+        <li>
+          <h3>Get Server Details</h3>
+          <p><strong>Command:</strong> <span class="code">node serverdetails &lt;server.ip&gt; []</span></p>
+          <p><strong>Description:</strong> Fetches and displays online players, server version, MOTD, and plugins.</p>
+          <p><strong>Example:</strong></p>
+          <div class="code">node serverdetails play.example.com 19132</div>
+        </li>
+        <li>
+          <h3>Get Bedrock Server Download Link</h3>
+          <p><strong>Command:</strong> <span class="code">node getServerSoftware.mjs []</span></p>
+          <p><strong>Description:</strong> Opens a new tab with the download link for the specified Bedrock server version.</p>
+          <p><strong>Example:</strong></p>
+          <div class="code">node getServerSoftware.mjs 1.18.12.01 win</div>
+        </li>
+        <li>
+          <h3>Check Player Status from Zeqa Network</h3>
+          <p><strong>Command:</strong> <span class="code">node players</span></p>
+          <p><strong>Description:</strong> Fetches the list of online players from the specified Zeqa lobby.</p>
+          <p><strong>Example:</strong></p>
+          <div class="code">node players as1</div>
+        </li>
+        <li>
+          <h3>Find Player on Zeqa Network</h3>
+          <p><strong>Command:</strong> <span class="code">node find</span></p>
+          <p><strong>Description:</strong> Searches across all Zeqa regions and lobbies to check if the specified player is online.</p>
+          <p><strong>Example:</strong></p>
+          <div class="code">node find Silentmussle913</div>
+        </li>
+      </ol>
+    </section>
+    <section>
+      <h2>Repository Link</h2>
+      <p>Visit the Zeqa Terminal repository on GitHub to learn more or contribute:</p>
+      <a href="https://github.com/Silentmussle913/zeqa-terminal" class="button">Go to Repository</a>
+    </section>
+  </main>
+</body>
+</html>
